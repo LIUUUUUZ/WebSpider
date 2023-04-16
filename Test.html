@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta content = "text/html;charset=utf-8" http-equiv="content-type" />
-        <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
-        <meta content="always" name="referrer" />
-        <link href="https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/bdorz/baidu.min.css" rel="stylesheet" type="text" />
-        <title>这就是一个测试网站</title>
-    </head>
-<body link="#ff8033">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="content-type" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="always" name="referrer" />
+    <link rel="stylesheet" type="text/css" href="Test.css" />
+    <title>这就是一个测试网站</title>
+    <style>
+      /* Add a default background color to the button */
+      #like-btn {
+        background-color: #ff0000;
+      }
+      /* Change the background color of the button when it's clicked */
+      #like-btn.clicked {
+        background-color: rgb(100, 8, 246);
+      }
+    </style>
+  </head>
+  <body link="#ff8033">
     <div id="wrapper">
-        <div id="head">
-            <div class="head_wrapper">
-                <div id="u1">
-                    <a class="mnav" href="http://news.baidu.com" name="tj_trnews"><!--新闻注释--></a>
-                    <a class="mnav" href="http://news.baidu.com" name="tj_trnews">新闻</a>
-                    <a class="mnav" href="http://www.hao123.com" name="tj_trhao123">hao123</a>
-                    <a class="bri" href="//www.baidu.com/more/" name="tj_briicon" style="...">更多产品</a>
-                </div>  
-            </div>
+      <div id="head">
+        <div class="head_wrapper">
+          <div id="u1">
+            <a class="mnav" href="http://news.baidu.com" name="tj_trnews"></a>
+            <a class="mnav" href="http://news.baidu.com" name="tj_trnews">新闻</a>
+            <a class="mnav" href="http://www.hao123.com" name="tj_trhao123">hao123</a>
+            <a class="bri" href="//www.baidu.com/more/" name="tj_briicon" style="...">更多产品</a>
+          </div>
         </div>
+      </div>
     </div>
-</body>
-</html>
+    <div>
+      <button id="like-btn">喜欢</button>
+      <button id="dislike-btn">不喜欢</button>
